@@ -41,3 +41,4 @@ npm run dev
 npm start
 
 # Посилання на демо-версію:
+git-lesson50.vercel.app
