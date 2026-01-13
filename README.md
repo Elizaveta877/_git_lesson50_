@@ -1,16 +1,43 @@
-# React + Vite
+User Search Project (React Hooks Optimization)
+Цей проект є демонстрацією роботи хуків оптимізації в React (useMemo та useCallback). Він дозволяє шукати користувачів у великому списку та перемикати тему оформлення без зайвих перерахунків та ререндерів.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Основні функції
+Пошук користувачів: фільтрація списку з 1000 записів у реальному часі.
 
-Currently, two official plugins are available:
+Оптимізація обчислень: використання useMemo для мемоізації відфільтрованого списку.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Оптимізація рендерингу: використання useCallback та React.memo для запобігання зайвих оновлень дочірніх компонентів.
 
-## React Compiler
+Темна/Світла тема: зміна оформлення інтерфейсу на всю ширину та висоту екрана.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🛠 Технології
+React (Функціональні компоненти)
 
-## Expanding the ESLint configuration
+Hooks: useState, useMemo, useCallback
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+📋 Як запустити проект
+Клонуйте репозиторій:
+
+Bash
+
+git clone https://github.com/ваш-логін/назва-репозиторію.git
+Перейдіть у папку проекту:
+
+Bash
+
+cd назва-проекту
+Встановіть залежності:
+
+Bash
+
+npm install
+Запустіть проект у режимі розробки:
+
+Bash
+
+npm run dev
+# або
+npm start
+
+Посилання на демо-версію:
